@@ -111,3 +111,11 @@ header{
 custom-padding{
     padding: 100px 0 !important;
 }
+
+/*About*/
+.about h2{
+    color:#222;
+    font-family: 'PT Sans';
+    font-size: 40px;
+   
+}
