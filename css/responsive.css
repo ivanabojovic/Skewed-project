@@ -39,6 +39,10 @@
     .navbar-brand{
         max-width: 130px;
     }
+    .hello h2{
+
+        font-size: 60px !important;
+    }
 
 
 
@@ -56,6 +60,15 @@
 
     .navbar-nav li a{
         padding: 8px 15px !important;
+    }
+    .hello{
+        padding: 300px 0;
+    }
+    .lead-slider-wrapper:after{
+        height: 150px;
+    }
+    .lead-slider-wrapper .owl-dots{
+        bottom: 200px;
     }
 }
 
