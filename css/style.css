@@ -240,3 +240,26 @@ custom-padding{
     bottom: 0;
     background: url('assets/bottom-left.png') no-repeat;
 }
+ /*Portfolio*/
+ .portfolio .owl-dots{
+    position: relative;
+    top:30px;
+}
+.portfolio .hover{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: #101010;
+    background: rgba(255,255,255,0.5);
+    font-size: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+.portfolio figure:hover .hover{
+    display: block;
+}
