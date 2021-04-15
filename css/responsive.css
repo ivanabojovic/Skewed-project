@@ -103,6 +103,9 @@
         font-size: 84px;
         letter-spacing: -2.5px;
     }
+    .testimonials .testimonials-item p{
+        font-size: 27px;
+    }
 }
 
 
